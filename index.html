@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <header>
+        <h1>Contatos</h1>
+        <form>
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="text" name="email" placeholder="Email" required>            
+            <input type="text" name="telefone" placeholder="Telefone" required>            
+            <input type="text" name="endereco" placeholder="Endereco" required>            
+            <input type="text" name="cpf" placeholder="CPF" required>            
+            <input type="text" name="rg" placeholder="RG" required>           
+            <button type="submit">Registrar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                    <th>Endereco</th>
+                    <th>CPF</th>
+                    <th>RG</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="contacts-list">
+                <!-- Lista de contatos será preenchida aqui -->
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <h2>By Thiago</h2>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
